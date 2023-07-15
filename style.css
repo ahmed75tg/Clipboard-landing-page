@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 40px; */
+    background: url(images/bg-header-desktop.png) no-repeat;
+    background-position: top center;
+    /* background-size: cover; */
+
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.home h2 {
+    font-size: 2.5em;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.home p {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 650px;
+    margin-top: 20px;
+}
+
+.download {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.download a:hover {
+    opacity: .7;
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.page-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.page-two h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.page-two p {
+    font-size: 18px;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+.sides {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left {
+    margin-right: 100px;
+    margin-left: -250px;
+}
+
+.pro {
+    text-align: start;
+}
+
+.pro p {
+    font-size: 15px;
+    max-width: 300px;
+}
+
+.access {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.access h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.access p {
+    font-size: 18px;
+    max-width: 700px;
+    margin-bottom: 80px;
+}
+
+.workflow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.workflow h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.workflow p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card {
+    margin-left: 15px;
+}
+
+.card img {
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 15px;
+    max-width: 300px;
+}
+
+.sponsor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 150px;
+}
+
+.downloads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.downloads h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.downloads p {
+    font-size: 18px;
+    max-width: 680px;
+    text-align: center;
+}
+
+footer {
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.social img {
+    width: 25px !important;
+    text-align: center;
+    margin-left: 15px;
+}
+
+footer a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .wrapper {
+        background: url(images/bg-header-mobile.png) no-repeat;
+    }
+
+    .home h2 {
+        font-size: 2.2em;
+    }
+
+    .home p {
+        font-size: 15px;
+        max-width: 500px;
+    }
+
+    .download {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ios {
+        padding: 12px 80px;
+        margin-right: 0;
+    }
+
+    
+    .mac {
+        padding: 12px 80px;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .page-two h2 {
+        font-size: 1.5em;
+    }
+    
+    .page-two p {
+        font-size: 15px;
+        max-width: 300px;
+    }
+    
+    .sides {
+        flex-direction: column;
+    }
+    
+    .left {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .left img{
+        width: 300px;
+    }
+
+    .pro {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .access h2 {
+        font-size: 1.5em;
+    }
+    
+    .access p {
+        font-size: 15px;
+        max-width: 300px;
+    }
+
+    .access img{
+        width: 300px;
+    }
+        
+
+    .workflow h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+    
+    .workflow p {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .sponsor {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 150px;
+    }
+
+    .sponsor img{
+        margin-bottom: 50px;
+    }
+
+    .downloads h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .downloads p {
+        font-size: 15px;
+        max-width: 350px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: stretch;
+        padding: 30px;
+    }
+    
+    .social {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+
+    footer img {
+        margin-bottom: 60px;
+    }
+
+    footer a {
+        margin-bottom: 30px;
+    }
+}
